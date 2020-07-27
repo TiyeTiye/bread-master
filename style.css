@@ -1,0 +1,62 @@
+
+#nav-title {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-link {
+  color: black;
+  margin: 10px;
+  font-size: 17px;
+  font-weight: thin;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  height: 100%;
+  border-right: solid;
+  width: 283px;
+}
+
+header {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  margin-left: 300px;
+}
+
+code {
+  position: relative;
+  display: block;
+  margin-left: 300px;
+  padding: 10px;
+  line-height: 2;
+}
+
+#ingredients, #shapes, #flours {
+  margin-left: 300px;
+}
+
+p {
+  position: relative;
+  display: block;
+  margin-left: 300px;
+  font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 300px) {
+  font-size: 10px;
+}
+
+img {
+  max-width: 283px;
+}
